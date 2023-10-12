@@ -26,18 +26,18 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: #3f0dfd;">
     <section id="hero">
         <div class="hero-container">
             <div class="hero-logo" data-aos="zoom-in"><img src="assets/img/logo.gif" alt="" id="main_img"></div>
             <h1 data-aos="zoom-in"><span id="glow">DHRISTI</span></h1>
-            <h2 data-aos="fade-up">Crime detection and Prediction</h2>
-            <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto">Get Started</a>
+            <h2 data-aos="fade-up" style = "color: #3f0dfd;">Crime detection and Prediction</h2>
+            <!-- <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto">Get Started</a> -->
         </div>
     </section><!-- End Hero -->
 
     <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
+    <header id="header" class="d-flex align-items-center" style = "color: #3f0dfd;">
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
@@ -81,9 +81,9 @@
                                 statistics.
 
                             </p>
-                            <h4>In Delhi</h4>
+                            <h4></h4>
                             <ul>
-                                <li><i class="bx bx-check-double"></i> 11,542 cases of crime in 2017</li>
+                                <li><i class="bx bx-check-double"></i> The Total number of crime cases reported is 445.9 per 100,000 people</li>
                                 <li><i class="bx bx-check-double"></i> 1,05,000 CCTV cameras are installed in public
                                     places.</li>
                                 <li><i class="bx bx-check-double"></i> 1,40,000 CCTV cameras are in the process of
@@ -108,7 +108,7 @@
                 <form method="post" enctype="multipart/form-data" id="vid_form">
                     {% csrf_token %}
                     <input type="file" accept=".mp4" name="vid" required="" id="id_vid" hidden>
-                    <label for="id_vid" class=" fBtn cta-btn align-middle" style="cursor: pointer;">Choose Video
+                    <label for="id_vid" class=" fBtn cta-btn align-middle" style="cursor: pointer; background-color: #3f0dfd;">Choose Video
                         File</label>
                     <button class="btn btn-secondary" hidden>Submit</button>
                 </form>
@@ -121,7 +121,7 @@
             <div class="container">
                 <div class="section-title" data-aos="fade-up">
                     <h2>Tech Stack</h2>
-                    <p>This project encompasses various technologies within itself.</p>
+                    <p style = "color: antiquewhite;">This project encompasses various technologies within itself.</p>
                 </div>
 
                 <div class="row">
@@ -157,15 +157,16 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <a href="#header" class="scrollto footer-logo"><img src="assets/img/favicon.png" alt=""></a>
-                        <h3>Team Enigma</h3>
+                        <!-- <a href="#header" class="scrollto footer-logo"><img src="assets/img/favicon.png" alt=""></a> -->
+                        <h3>DHRISTI</h3><h3 style = "font-size: small;">@2023 DHRISTI, inc. all rights reserved. </h3>
                     </div>
                 </div>
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- end footer  -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    <a style = "background: #639cef;" href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->

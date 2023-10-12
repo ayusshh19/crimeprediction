@@ -12,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #ddd;
-  background-color: #222;
+  background-color: #3f0dfd;
 }
 
 a {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #52994c;
+  background: #639cef;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 5vh 0;
+  padding: 10vh 0;
   overflow: hidden;
 }
 
